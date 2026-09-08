@@ -1,0 +1,40 @@
+# Uber Eats Azure Data Warehouse - .gitignore
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg
+
+# Environment & Secrets
+.env
+.env.*
+*.key
+secrets.json
+credentials.json
+connection_strings.txt
+
+# Azure
+.azure/
+
+# Large data files
+*.parquet
+data/raw/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+*.tmp
+
+# Power BI temp
+*.pbix.bak
+
+# Virtual environments
+venv/
+.venv/
+
+# IDE
+.vscode/
+.idea/
